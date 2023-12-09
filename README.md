@@ -5,11 +5,15 @@ Introducción:
 
 Con el desarrollo del reto integrarás todos los conocimientos adquiridos, cumpliendo los
 siguientes objetivos:
+
 ● Genera informes automáticos para describir los datos con técnicas estadísticas y de
 visualización.
+
 ● Aplica técnicas de preprocesamiento y transformación previo a la ejecución de
 autoaprendizajes.
+
 ● Utiliza plataformas de AutoML para seleccionar, evaluar y optimizar modelos.
+
 “El 80% del éxito se basa simplemente en insistir.”
 - Woody Allen.
 

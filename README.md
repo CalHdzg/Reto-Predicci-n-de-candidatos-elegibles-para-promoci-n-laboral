@@ -49,20 +49,20 @@ no tener aportación en la predicción.
 
 ● Obtención de un modelo de ML con TPOT:
 
-6. Codifica las variables categóricas de info con LabelEncoder.
-7. Divide la matriz en conjuntos de entrenamiento y prueba (80:20), utilizando el
+5. Codifica las variables categóricas de info con LabelEncoder.
+6. Divide la matriz en conjuntos de entrenamiento y prueba (80:20), utilizando el
 parámetro random_state=1 para garantizar reproducibilidad.
-8. Observa la distribución de la variable objetivo is_promoted. En caso de que las
+7. Observa la distribución de la variable objetivo is_promoted. En caso de que las
 clases estén desbalanceadas, realiza over_sampling con el método SMOTE().
-9. Ejecuta el autoaprendizaje utilizando el parámetro random_state y la métrica
+8. Ejecuta el autoaprendizaje utilizando el parámetro random_state y la métrica
 accuracy.
 
 ● Obtención de un modelo de machine learning con PyCaret:
 
-11. Divide la matriz en conjuntos de entrenamiento y prueba (80:20), utilizando el
+9. Divide la matriz en conjuntos de entrenamiento y prueba (80:20), utilizando el
 parámetro random_state=1 para garantizar reproducibilidad.
-12. Ejecuta el autoaprendizaje con parámetros equivalentes a los que usaste en TPOT y
+10. Ejecuta el autoaprendizaje con parámetros equivalentes a los que usaste en TPOT y
 optimiza el mejor modelo con la métrica accuracy.
-13. Utiliza evaluate_model() para mostrar la interfaz de usuario con detalles del
+11. Utiliza evaluate_model() para mostrar la interfaz de usuario con detalles del
 modelo optimizado.
-14. Verifica las métricas con el conjunto de prueba.
+12. Verifica las métricas con el conjunto de prueba.
